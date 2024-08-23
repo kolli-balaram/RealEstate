@@ -1,7 +1,7 @@
 import streamlit as st
 import numpy as np
 import pickle
-with open("C:/Users/kolli/PycharmProjects/Hello/estate_model.pkl",'rb') as file:
+with open("estate_model.pkl",'rb') as file:
     model = pickle.load(file)
 bedrooms = st.number_input("bed rooms ")
 bathrooms = st.number_input("bath rooms ")
